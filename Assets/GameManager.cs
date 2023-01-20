@@ -36,7 +36,9 @@ public class GameManager : MonoBehaviour
     public GameObject[] food;
 
     public GameObject dirtyGround;
+    public GameObject dirtyGround2;
     public GameObject clearSky;
+    public GameObject dirtySky;
 
     public GameObject bowlWater;
     public GameObject goodFish;
@@ -48,6 +50,11 @@ public class GameManager : MonoBehaviour
 
     public GameObject tree1;
     public GameObject tree2;
+    public GameObject tree3;
+    public GameObject tree4;
+
+    public GameObject rabbitTree;
+    public GameObject rabbitTree2;
 
     public GameObject[] flowers;
     public GameObject bee1;
@@ -71,7 +78,9 @@ public class GameManager : MonoBehaviour
     public GameObject door;
     Animator anim;
 
-    public Image rainbow;
+    public GameObject rainbow;
+
+    public GameObject[] factory;
 
     private void Awake()
     {
@@ -80,6 +89,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         StartCoroutine("movingFish");
+        StartCoroutine("movingBee");
         StartCoroutine("GameStart");
 
     }
@@ -142,18 +152,23 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
         }
         yield return new WaitForSeconds(1f);
-        StartCoroutine("Window");
+        StartCoroutine("Factory");
     }
 
-    IEnumerator Window()
+    IEnumerator Factory()
     {
-        for (float f = 0f; f < 1; f += 0.005f)
+        for (int i = 0; i < factory.Length; i++)
         {
-            Color c = clearSky.GetComponent<SpriteRenderer>().color;
-            c.a = f;
-            clearSky.GetComponent<SpriteRenderer>().color = c;
+            for (float t = 1f; t > 0; t -= 0.005f)
+            {
+                Color c = factory[i].GetComponent<SpriteRenderer>().color;
+                c.a = t;
+                factory[i].GetComponent<SpriteRenderer>().color = c;
+                yield return null;
+            }
             yield return null;
         }
+
         yield return new WaitForSeconds(1f);
         StartCoroutine("Window2");
     }
@@ -164,6 +179,9 @@ public class GameManager : MonoBehaviour
             Color cc = dirtyGround.GetComponent<SpriteRenderer>().color;
             cc.a = t;
             dirtyGround.GetComponent<SpriteRenderer>().color = cc;
+            Color cc1 = dirtyGround2.GetComponent<SpriteRenderer>().color;
+            cc1.a = t;
+            dirtyGround2.GetComponent<SpriteRenderer>().color = cc1;
             yield return null;
         }
         yield return new WaitForSeconds(1f);
@@ -180,6 +198,12 @@ public class GameManager : MonoBehaviour
             Color cc1 = tree2.GetComponent<SpriteRenderer>().color;
             cc1.a = f;
             tree2.GetComponent<SpriteRenderer>().color = cc1;
+            Color cc2 = tree3.GetComponent<SpriteRenderer>().color;
+            cc2.a = f;
+            tree3.GetComponent<SpriteRenderer>().color = cc2;
+            Color cc3 = tree4.GetComponent<SpriteRenderer>().color;
+            cc3.a = f;
+            tree4.GetComponent<SpriteRenderer>().color = cc3;
             yield return null;
         }
 
@@ -200,8 +224,24 @@ public class GameManager : MonoBehaviour
             }
         }
         yield return new WaitForSeconds(1f);
+        StartCoroutine("Window");
+    }
+
+    IEnumerator Window()
+    {
+        
+        for (float f = 0f; f < 1; f += 0.005f)
+        {
+            Color c = clearSky.GetComponent<SpriteRenderer>().color;
+            c.a = f;
+            clearSky.GetComponent<SpriteRenderer>().color = c;
+            yield return null;
+        }
+        dirtySky.SetActive(false);
+        yield return new WaitForSeconds(1f);
         StartCoroutine("Sheep");
     }
+
 
     IEnumerator Sheep()
     {
@@ -231,7 +271,17 @@ public class GameManager : MonoBehaviour
 
     IEnumerator Rabbit()
     {
-        yield return new WaitForSeconds(1f);
+        for (float f = 0f; f < 1; f += 0.005f)
+        {
+            Color cc = rabbitTree.GetComponent<SpriteRenderer>().color;
+            cc.a = f;
+            rabbitTree.GetComponent<SpriteRenderer>().color = cc;
+            Color cc2 = rabbitTree2.GetComponent<SpriteRenderer>().color;
+            cc2.a = f;
+            rabbitTree2.GetComponent<SpriteRenderer>().color = cc2;
+            yield return null;
+        }
+        rabbit.SetActive(true);
         isRabbit = true;
         yield return new WaitForSeconds(1f);
         StartCoroutine("Tree");
@@ -274,8 +324,6 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
         yield return new WaitForSeconds(1f);
-
-        yield return new WaitForSeconds(1f);
         StartCoroutine("Bee");
     }
 
@@ -316,14 +364,23 @@ public class GameManager : MonoBehaviour
 
     IEnumerator Rainbow()
     {
-        float timer = 0.1f;
+        /*float timer = 0.1f;
         while (timer < time)
         {
             timer += Time.deltaTime;
             rainbow.fillAmount = timer;
             yield return null;
         }
+        yield return new WaitForSeconds(1f);*/
+        for (float f = 0f; f < 1; f += 0.005f)
+        {
+            Color cc = rainbow.GetComponent<SpriteRenderer>().color;
+            cc.a = f;
+            rainbow.GetComponent<SpriteRenderer>().color = cc;
+            yield return null;
+        }
         yield return new WaitForSeconds(1f);
+        //StartCoroutine("Rabbit");
     }
 
 
@@ -384,6 +441,39 @@ public class GameManager : MonoBehaviour
                 yield return null;
             }
             
+        }
+    }
+
+    IEnumerator movingBee()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            Vector2 startPos = bee1.transform.position;
+            Vector2 targetPos = startPos + new Vector2(0, fishHeight);
+
+            float timer = 0.0f;
+
+            while (timer < time)
+            {
+                timer += Time.deltaTime;
+                float percent = timer / time;
+                bee1.transform.position = Vector2.Lerp(startPos, targetPos, curve1.Evaluate(percent));
+                yield return null;
+
+            }
+
+            timer = 0.0f;
+            startPos = bee1.transform.position;
+            targetPos = startPos - new Vector2(0, fishHeight);
+            while (timer < time)
+            {
+                timer += Time.deltaTime;
+                float percent = timer / time;
+                bee1.transform.position = Vector2.Lerp(startPos, targetPos, curve2.Evaluate(percent));
+                yield return null;
+            }
+
         }
     }
 }
