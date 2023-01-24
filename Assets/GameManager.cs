@@ -141,19 +141,19 @@ public class GameManager : MonoBehaviour
     IEnumerator GameStart()
     {
         anim.SetBool("isStart", true);
-        yield return new WaitForSeconds(1.3f);
+        yield return new WaitForSecondsRealtime(1.3f);
         door.SetActive(false);
         for (int i = 0; i < refObj.Length; i++)
         {
             refObj[i].SetActive(true);
         }
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
     }
 
 
     IEnumerator Melon()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         if (isStart == false)
         {
             melon.transform.position = Vector2.Lerp(melon.transform.position, melonPos.transform.position, 1f);
@@ -171,7 +171,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator Melon2()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         isMelon = true;
         isWatermelon = true;
         
@@ -209,7 +209,7 @@ public class GameManager : MonoBehaviour
             treeScore[i].SetActive(true);
             StartCoroutine("FadeIn", treeScore[i]);
         }
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSecondsRealtime(0.3f);
 
     }
 
@@ -221,7 +221,7 @@ public class GameManager : MonoBehaviour
         yield return null;
         truck.SetActive(true);
         StartCoroutine("FadeInChilds",truck);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         isTruck = true;
     }
 
@@ -302,7 +302,7 @@ public class GameManager : MonoBehaviour
         planeColor.SetActive(true);
         StartCoroutine("FadeIn", planeColor);
         isPlane = true;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSecondsRealtime(0.1f);
         PlaneScore.SetActive(true);
         
     }
@@ -424,7 +424,7 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
         dirtySky.SetActive(false);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         StartCoroutine("Sheep");
     }
 
@@ -438,7 +438,7 @@ public class GameManager : MonoBehaviour
             sheep.GetComponent<SpriteRenderer>().color = cc;
             yield return null;
         }
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         StartCoroutine("Chicken");
     }
 
@@ -451,7 +451,7 @@ public class GameManager : MonoBehaviour
             chicken.GetComponent<SpriteRenderer>().color = cc;
             yield return null;
         }
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         StartCoroutine("Rabbit");
     }
 
@@ -464,7 +464,7 @@ public class GameManager : MonoBehaviour
         StartCoroutine("FadeIn", rabbit);
         yield return null;
         isRabbit = true;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSecondsRealtime(2f);
         StartCoroutine("Tree");
     }
 
@@ -481,7 +481,7 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         StartCoroutine("Bowl");
     }
     IEnumerator Bowl()
@@ -505,7 +505,7 @@ public class GameManager : MonoBehaviour
             goodFishLine2.GetComponent<SpriteRenderer>().color = cc3;
             yield return null;
         }
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         //StartCoroutine("Bee");
     }
 
@@ -540,7 +540,7 @@ public class GameManager : MonoBehaviour
             bee2.transform.position = Vector2.Lerp(startPos2, targetPos2, curve2.Evaluate(percent));
             yield return null;
         }
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         StartCoroutine("Rainbow");
     }
 
@@ -553,9 +553,9 @@ public class GameManager : MonoBehaviour
             rainbow.fillAmount = timer;
             yield return null;
         }
-        yield return new WaitForSeconds(1f);*/
+        yield return new WaitForSecondsRealtime(1f);*/
         
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         //StartCoroutine("Rabbit");
     }
     void FadeOutChilds(GameObject g)
@@ -617,7 +617,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if(stage == 1)
         {
@@ -730,7 +730,7 @@ public class GameManager : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSecondsRealtime(1f);
             Vector2 startPos = moveFish.transform.position;
             Vector2 targetPos = startPos + new Vector2(0, fishHeight);
 
@@ -763,7 +763,7 @@ public class GameManager : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSecondsRealtime(1f);
             Vector2 startPos = bee.transform.position;
             Vector2 targetPos = startPos + new Vector2(0, fishHeight);
 
