@@ -6,15 +6,19 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public int stage;
+    public GameObject g;
     public GameObject ref1;
     public GameObject ref2;
     public GameObject ref3;
     public GameObject[] refObj;
+    public GameObject doorAnim;
 
     public GameObject melon;
     public GameObject melonPos;
     public GameObject melonPos2;
     bool isMelon = false;
+    bool isStart = false;
     public GameObject melonPlate;
     public GameObject melonPlatePos;
     public GameObject under1;
@@ -82,64 +86,263 @@ public class GameManager : MonoBehaviour
 
     public GameObject[] factory;
 
+    public GameObject newScene;
+
+    public GameObject changeMelon;
+    public GameObject newMelon;
+    private Vector2 originMelon;
+    public GameObject changeWater;
+    public GameObject newWater;
+    private Vector2 originWater;
+    public GameObject underBoxCover;
+    public GameObject refColor;
+    public GameObject melonLens;
+    public GameObject waterLens;
+    public GameObject house;
+    public GameObject tree;
+    public GameObject sea;
+    public GameObject truck;
+    bool isTruck;
+    public GameObject truckScore;
+    public GameObject PlaneScore;
+    public GameObject[] treeScore;
+    public GameObject[] seaScore;
+
+    public GameObject planeObj;
+    public GameObject plane;
+    public GameObject planeColor;
+    bool isPlane;
+
+    public GameObject tableColor;
+    public GameObject refColor2;
+
+    
+    
     private void Awake()
     {
         anim = door.GetComponent<Animator>();
+        originMelon = changeMelon.transform.localScale;
+        originWater = changeWater.transform.localScale;
     }
     void Start()
     {
+        //GetChilds(g);
+        StartCoroutine("movingBee", bee1);
+        StartCoroutine("movingBee", bee2);
         StartCoroutine("movingFish");
-        StartCoroutine("movingBee");
-        StartCoroutine("GameStart");
 
     }
 
+    IEnumerator Ref()
+    {
+        yield return null;
+        FadeInChilds(refColor);
+    }
     IEnumerator GameStart()
     {
         anim.SetBool("isStart", true);
-        yield return new WaitForSeconds(1f);
-        StartCoroutine("EndRef");
-    }
-
-    IEnumerator Ref1()
-    {
-        ref2.SetActive(false);
-        ref3.SetActive(true);
-        yield return new WaitForSeconds(1f);
-        StartCoroutine("EndRef");
-    }
-
-    IEnumerator EndRef()
-    {
-        //ref3.SetActive(false);
+        yield return new WaitForSeconds(1.3f);
         door.SetActive(false);
         for (int i = 0; i < refObj.Length; i++)
         {
             refObj[i].SetActive(true);
         }
         yield return new WaitForSeconds(1f);
-        StartCoroutine("Melon");
     }
+
 
     IEnumerator Melon()
     {
-        melon.transform.position = Vector2.Lerp(melon.transform.position, melonPos.transform.position, 1f);
-        melonPlate.transform.position = Vector2.Lerp(melonPlate.transform.position, melonPlatePos.transform.position, 1f);
-        under1.transform.position = Vector2.Lerp(under1.transform.position, under1Pos.transform.position, 1f);
-        under2.transform.position = Vector2.Lerp(under2.transform.position, under2Pos.transform.position, 1f);
-        watermelon.transform.position = Vector2.Lerp(watermelon.transform.position, watermelonPos.transform.position, 1f);
+        yield return new WaitForSeconds(1f);
+        if (isStart == false)
+        {
+            melon.transform.position = Vector2.Lerp(melon.transform.position, melonPos.transform.position, 1f);
+            melonPlate.transform.position = Vector2.Lerp(melonPlate.transform.position, melonPlatePos.transform.position, 1f);
+            under1.transform.position = Vector2.Lerp(under1.transform.position, under1Pos.transform.position, 1f);
+            under2.transform.position = Vector2.Lerp(under2.transform.position, under2Pos.transform.position, 1f);
+            watermelon.transform.position = Vector2.Lerp(watermelon.transform.position, watermelonPos.transform.position, 1f);
+            isStart = true;
+        }
+        
+        
+        StartCoroutine("Melon2");
+
+    }
+
+    IEnumerator Melon2()
+    {
         yield return new WaitForSeconds(1f);
         isMelon = true;
         isWatermelon = true;
-        yield return new WaitForSeconds(1f);
+        
         isMilk = true;
         isJuice = true;
+    }
+
+    IEnumerator Scene()
+    {
+        yield return null;
+        FadeInChilds(newScene);
+
+    }
+
+    IEnumerator Info()
+    {
+        changeWater.SetActive(false);
+        changeMelon.SetActive(false);
+        newWater.SetActive(true);
+        newMelon.SetActive(true);
+        underBoxCover.SetActive(false);
+        for (float f = 0f; f < 1; f += 0.005f)
+        {
+            Color c = newWater.GetComponent<SpriteRenderer>().color;
+            c.a = f;
+            newWater.GetComponent<SpriteRenderer>().color = c;
+            yield return null;
+        }
+        house.SetActive(true);
+        StartCoroutine("FadeIn", house);
+        tree.SetActive(true);
+        StartCoroutine("FadeIn", tree);
+        for(int i = 0; i < treeScore.Length; i++)
+        {
+            treeScore[i].SetActive(true);
+            StartCoroutine("FadeIn", treeScore[i]);
+        }
+        yield return new WaitForSeconds(0.3f);
+
+    }
+
+    IEnumerator addMelon()
+    {
+        yield return null;
+        melonLens.SetActive(true);
+        StartCoroutine("FadeIn", melonLens);
+        yield return null;
+        truck.SetActive(true);
+        StartCoroutine("FadeInChilds",truck);
         yield return new WaitForSeconds(1f);
-        StartCoroutine("Food");
+        isTruck = true;
+    }
+
+    IEnumerator MelonTruck()
+    {
+        yield return null;
+        StartCoroutine("FadeOutChilds", truck);
+        yield return null;
+        truckScore.SetActive(true);
+        StartCoroutine("AddMelonTree");
+    }
+    IEnumerator AddMelonTree()
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            treeScore[i].SetActive(true);
+            for (float t = 1f; t > 0; t -= 0.005f)
+            {
+                Color c = treeScore[i].GetComponent<SpriteRenderer>().color;
+                c.a = t;
+                treeScore[i].GetComponent<SpriteRenderer>().color = c;
+                yield return null;
+            }
+            yield return null;
+        }
+        sea.SetActive(true);
+        StartCoroutine("FadeInChilds",sea);
+    }
+
+    IEnumerator Sea()
+    {
+        for (int i = 0; i < seaScore.Length; i++)
+        {
+            seaScore[i].SetActive(true);
+            for (float f = 0f; f < 1; f += 0.005f)
+            {
+                Color c = seaScore[i].GetComponent<SpriteRenderer>().color;
+                c.a = f;
+                seaScore[i].GetComponent<SpriteRenderer>().color = c;
+                yield return null;
+            }
+        }
+    }
+
+    IEnumerator AddWater()
+    {
+        yield return null;
+        melonLens.SetActive(false);
+
+        truckScore.SetActive(false);
+        StartCoroutine("DelSea");
+        
+    }
+
+    IEnumerator DelSea()
+    {
+        yield return null;
+        for (int i = 0; i < seaScore.Length; i++)
+        {
+            Color cs = seaScore[i].GetComponent<SpriteRenderer>().color;
+            cs.a = 0f;
+            seaScore[i].GetComponent<SpriteRenderer>().color = cs;
+        }
+        for (int k = 0; k < treeScore.Length; k++)
+        {
+            Color cc = treeScore[k].GetComponent<SpriteRenderer>().color;
+            cc.a = 255f;
+            treeScore[k].GetComponent<SpriteRenderer>().color = cc;
+        }
+    }
+
+    IEnumerator Plane()
+    {
+        waterLens.SetActive(true);
+        StartCoroutine("FadeIn", waterLens);
+        planeObj.SetActive(true);
+        plane.SetActive(true);
+        planeColor.SetActive(true);
+        StartCoroutine("FadeIn", planeColor);
+        isPlane = true;
+        yield return new WaitForSeconds(0.1f);
+        PlaneScore.SetActive(true);
+        
+    }
+
+    IEnumerator AddWaterTree()
+    {
+        yield return null;
+        planeObj.SetActive(false);
+        sea.SetActive(true);
+        for (int i = 0; i < treeScore.Length; i++)
+        {
+            treeScore[i].SetActive(true);
+            for (float t = 1f; t > 0; t -= 0.005f)
+            {
+                Color c = treeScore[i].GetComponent<SpriteRenderer>().color;
+                c.a = t;
+                treeScore[i].GetComponent<SpriteRenderer>().color = c;
+                yield return null;
+            }
+            yield return null;
+        }
+        
+        StartCoroutine("FadeInChilds", sea);
+    }
+
+    IEnumerator DelScene()
+    {
+        truck.SetActive(false);
+        doorAnim.SetActive(false);
+        refColor.SetActive(false);
+        refColor2.SetActive(true);
+        yield return null;
+        sea.SetActive(false);
+
+        FadeOutChilds(newScene);
     }
 
     IEnumerator Food()
     {
+        StartCoroutine("FadeIn", tableColor);
         for (int i = 0; i < food.Length; i++)
         {
             for (float f = 0f; f < 1; f += 0.005f)
@@ -149,10 +352,7 @@ public class GameManager : MonoBehaviour
                 food[i].GetComponent<SpriteRenderer>().color = c;
                 yield return null;
             }
-            yield return new WaitForSeconds(0.5f);
         }
-        yield return new WaitForSeconds(1f);
-        StartCoroutine("Factory");
     }
 
     IEnumerator Factory()
@@ -166,11 +366,8 @@ public class GameManager : MonoBehaviour
                 factory[i].GetComponent<SpriteRenderer>().color = c;
                 yield return null;
             }
-            yield return null;
         }
 
-        yield return new WaitForSeconds(1f);
-        StartCoroutine("Window2");
     }
 
     IEnumerator Window2() {
@@ -184,8 +381,6 @@ public class GameManager : MonoBehaviour
             dirtyGround2.GetComponent<SpriteRenderer>().color = cc1;
             yield return null;
         }
-        yield return new WaitForSeconds(1f);
-        StartCoroutine("Window3");
     }
 
     IEnumerator Window3()
@@ -207,24 +402,15 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
 
-        yield return new WaitForSeconds(1f);
-        StartCoroutine("Flower");
     }
 
     IEnumerator Flower()
     {
         for (int i = 0; i < flowers.Length; i++)
         {
-            for (float f = 0f; f < 1; f += 0.005f)
-            {
-                Color cc = flowers[i].GetComponent<SpriteRenderer>().color;
-                cc.a = f;
-                flowers[i].GetComponent<SpriteRenderer>().color = cc;
-                yield return null;
-            }
+            StartCoroutine("FadeIn", flowers[i]);
         }
-        yield return new WaitForSeconds(1f);
-        StartCoroutine("Window");
+        yield return null;
     }
 
     IEnumerator Window()
@@ -271,19 +457,14 @@ public class GameManager : MonoBehaviour
 
     IEnumerator Rabbit()
     {
-        for (float f = 0f; f < 1; f += 0.005f)
-        {
-            Color cc = rabbitTree.GetComponent<SpriteRenderer>().color;
-            cc.a = f;
-            rabbitTree.GetComponent<SpriteRenderer>().color = cc;
-            Color cc2 = rabbitTree2.GetComponent<SpriteRenderer>().color;
-            cc2.a = f;
-            rabbitTree2.GetComponent<SpriteRenderer>().color = cc2;
-            yield return null;
-        }
+        StartCoroutine("FadeIn", rabbitTree);
+        StartCoroutine("FadeIn", rabbitTree2);
+        yield return null;
         rabbit.SetActive(true);
+        StartCoroutine("FadeIn", rabbit);
+        yield return null;
         isRabbit = true;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         StartCoroutine("Tree");
     }
 
@@ -299,6 +480,7 @@ public class GameManager : MonoBehaviour
             bee2.GetComponent<SpriteRenderer>().color = cc1;
             yield return null;
         }
+
         yield return new WaitForSeconds(1f);
         StartCoroutine("Bowl");
     }
@@ -324,7 +506,7 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
         yield return new WaitForSeconds(1f);
-        StartCoroutine("Bee");
+        //StartCoroutine("Bee");
     }
 
     IEnumerator Bee()
@@ -372,21 +554,141 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
         yield return new WaitForSeconds(1f);*/
-        for (float f = 0f; f < 1; f += 0.005f)
-        {
-            Color cc = rainbow.GetComponent<SpriteRenderer>().color;
-            cc.a = f;
-            rainbow.GetComponent<SpriteRenderer>().color = cc;
-            yield return null;
-        }
+        
         yield return new WaitForSeconds(1f);
         //StartCoroutine("Rabbit");
     }
+    void FadeOutChilds(GameObject g)
+    {
+        SpriteRenderer[] childList = g.GetComponentsInChildren<SpriteRenderer>();
+        foreach (SpriteRenderer child in childList)
+        {
+            StartCoroutine("FadeOutChild", child);
+        }
+    }
+    IEnumerator FadeOutChild(SpriteRenderer child)
+    {
+        for (float t = 1f; t > 0; t -= 0.005f)
+        {
+            Color cc = child.GetComponent<SpriteRenderer>().color;
+            cc.a = t;
+            child.GetComponent<SpriteRenderer>().color = cc;
+            yield return null;
+        }
+    }
+    void FadeInChilds(GameObject g)
+    {
+        SpriteRenderer[] childList = g.GetComponentsInChildren<SpriteRenderer>();
+        foreach (SpriteRenderer child in childList)
+        {
+            StartCoroutine("FadeInChild", child);
+        }
+    }
+    IEnumerator FadeInChild(SpriteRenderer child)
+    {
+        for (float f = 0f; f < 1; f += 0.005f)
+        {
+            Color cc = child.GetComponent<SpriteRenderer>().color;
+            cc.a = f;
+            child.GetComponent<SpriteRenderer>().color = cc;
+            yield return null;
+        }
+    }
 
+    IEnumerator FadeIn(GameObject GO)
+    {
+        for (float f = 0f; f < 1; f += 0.005f)
+        {
+            Color cc = GO.GetComponent<SpriteRenderer>().color;
+            cc.a = f;
+            GO.GetComponent<SpriteRenderer>().color = cc;
+            yield return null;
+        }
+    }
+
+    IEnumerator FadeOut(GameObject GO)
+    {
+        for (float t = 1f; t > 0; t -= 0.005f)
+        {
+            Color cc = GO.GetComponent<SpriteRenderer>().color;
+            cc.a = t;
+            GO.GetComponent<SpriteRenderer>().color = cc;
+            yield return null;
+        }
+    }
 
     private void Update()
     {
-        if(isMelon == true)
+        if(stage == 1)
+        {
+            StartCoroutine("Ref");
+        }
+        else if(stage == 2)
+        {
+            StartCoroutine("GameStart");
+        }
+        else if (stage == 3)
+        {
+            StartCoroutine("Melon");
+        }
+        else if(stage == 4)
+        {
+            StartCoroutine("Scene");
+        }
+        else if(stage == 5)
+        {
+            StartCoroutine("Info");
+        }
+        else if(stage == 6)
+        {
+            StartCoroutine("addMelon");
+        }
+        else if(stage == 7)
+        {
+            StartCoroutine("MelonTruck");
+        }
+        else if(stage == 8)
+        {
+            StartCoroutine("AddWater");
+        }
+        else if(stage == 9)
+        {
+            StartCoroutine("Plane");
+        }
+        else if(stage == 10)
+        {
+            StartCoroutine("AddWaterTree");
+        }
+        else if(stage == 11)
+        {
+            StartCoroutine("DelScene");
+        }
+        else if (stage == 12)
+        {
+            StartCoroutine("Food");
+        }
+        else if(stage == 13)
+        {
+            StartCoroutine("Factory");
+        }
+        else if (stage == 14)
+        {
+            StartCoroutine("Window2");
+        }
+        else if(stage == 15)
+        {
+            StartCoroutine("Window3");
+        }
+        else if(stage == 16)
+        {
+            StartCoroutine("Flower");
+        }
+        else if(stage == 17)
+        {
+            StartCoroutine("Window");
+        }
+
+        if (isMelon == true)
         {
             melon.transform.position = Vector2.Lerp(melon.transform.position, melonPos2.transform.position, 0.01f);
         }
@@ -402,6 +704,14 @@ public class GameManager : MonoBehaviour
         {
             juice.transform.position = Vector2.Lerp(juice.transform.position, juicePos.transform.position, 0.01f);
         }
+        if(isTruck == true)
+        {
+            truck.transform.position = Vector2.Lerp(truck.transform.position, house.transform.position, 0.01f);
+        }
+        if (isPlane == true)
+        {
+            planeObj.transform.position = Vector2.Lerp(planeObj.transform.position, house.transform.position, 0.01f);
+        }
         if(isRabbit == true)
         {
             rabbit.transform.position = Vector2.Lerp(rabbit.transform.position, rabbitPos1.transform.position, 0.01f);
@@ -409,6 +719,11 @@ public class GameManager : MonoBehaviour
 
         
         
+    }
+
+    public void ButtonClick()
+    {
+        stage++;
     }
 
     IEnumerator movingFish()
@@ -444,12 +759,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    IEnumerator movingBee()
+    IEnumerator movingBee(GameObject bee)
     {
         while (true)
         {
             yield return new WaitForSeconds(1f);
-            Vector2 startPos = bee1.transform.position;
+            Vector2 startPos = bee.transform.position;
             Vector2 targetPos = startPos + new Vector2(0, fishHeight);
 
             float timer = 0.0f;
@@ -458,19 +773,19 @@ public class GameManager : MonoBehaviour
             {
                 timer += Time.deltaTime;
                 float percent = timer / time;
-                bee1.transform.position = Vector2.Lerp(startPos, targetPos, curve1.Evaluate(percent));
+                bee.transform.position = Vector2.Lerp(startPos, targetPos, curve1.Evaluate(percent));
                 yield return null;
 
             }
 
             timer = 0.0f;
-            startPos = bee1.transform.position;
+            startPos = bee.transform.position;
             targetPos = startPos - new Vector2(0, fishHeight);
             while (timer < time)
             {
                 timer += Time.deltaTime;
                 float percent = timer / time;
-                bee1.transform.position = Vector2.Lerp(startPos, targetPos, curve2.Evaluate(percent));
+                bee.transform.position = Vector2.Lerp(startPos, targetPos, curve2.Evaluate(percent));
                 yield return null;
             }
 
