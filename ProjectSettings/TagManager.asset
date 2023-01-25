@@ -44,3 +44,6 @@ TagManager:
   - name: Melon
     uniqueID: 3952809861
     locked: 0
+  - name: Sea
+    uniqueID: 723455449
+    locked: 0
