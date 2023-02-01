@@ -11,6 +11,8 @@ public class Animation : MonoBehaviour
     public bool tableColor = false;
     Animation anim;
 
+    public GameObject tab;
+
     void Start()
     {
         Color cc = table[0].GetComponent<SpriteRenderer>().color;
@@ -49,6 +51,7 @@ public class Animation : MonoBehaviour
                 table[i].GetComponent<SpriteRenderer>().color = c;
 
             }
+            tab.SetActive(true);
             animator.SetTrigger("isWindow");
 
         }
