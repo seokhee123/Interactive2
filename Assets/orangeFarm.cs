@@ -19,11 +19,12 @@ public class orangeFarm : MonoBehaviour
     void AnimationPause()
     {
         Time.timeScale = 0;
+        //gameObject.GetComponent<Animator>().speed= 0;
     }
 
     private void OnMouseDown()
     {
         Time.timeScale = 1;
-
+        //gameObject.GetComponent<Animator>().speed = 0;
     }
 }
