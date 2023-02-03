@@ -9,7 +9,7 @@ public class Orange : MonoBehaviour
     public GameObject orange;
     private void OnMouseDown()
     {
-        earth.SetActive(true);
+        earth.GetComponent<Animator>().enabled = true;
         cloud.SetActive(true);
         orange.SetActive(true);
     }
