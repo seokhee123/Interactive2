@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class kitchen : MonoBehaviour
 {
-    public GameObject junkFood;
 
     void Start()
     {
@@ -24,5 +23,35 @@ public class kitchen : MonoBehaviour
     void TimeScale()
     {
         Time.timeScale = 0;
+    }
+
+    void PartySoundOn()
+    {
+        KitchenSound.isParty = true;
+    }
+
+    void BoomSoundOn()
+    {
+        KitchenSound.isBoom = true;
+    }
+
+    void OpenSoundOn()
+    {
+        KitchenSound.isOpen = true;
+    }
+
+    void FoodSoundOn()
+    {
+        KitchenSound.isFood = true;
+    }
+
+    void WindowSoundOn()
+    {
+        KitchenSound.isWindow = true;
+    }
+
+    void RainbowSoundOn()
+    {
+        KitchenSound.isRainbow = true;
     }
 }
