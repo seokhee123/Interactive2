@@ -41,6 +41,30 @@ public class Animations : MonoBehaviour
     {
         bgm.AirPlane(i);
     }
+    public void Factory()
+    {
+        bgm.Factory();
+    }
+    public void SteakSound()
+    {
+        bgm.SteakSound();
+    }
+    public void EatSound()
+    {
+        bgm.EatSound();
+    }
+    public void ChildrenSound()
+    {
+        bgm.ChildrenSound();
+    }
+    public void EngineSound()
+    {
+        bgm.EngineSound();
+    }
+    public void CrySound()
+    {
+        bgm.CrySound();
+    }
     public void FirstEarthTree()
     {
         scenario.earth.SetBool("tree1", true);

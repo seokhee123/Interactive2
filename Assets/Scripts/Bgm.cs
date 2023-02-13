@@ -13,7 +13,12 @@ public class Bgm : MonoBehaviour
     public AudioSource bart2;
     public AudioSource truck;
     public AudioSource airPlane;
-    
+    public AudioSource factory;
+    public AudioSource steakSound;
+    public AudioSource eatSound;
+    public AudioSource childrenSound;
+    public AudioSource engineSound;
+    public AudioSource crySound;
 
     public void Truck(int i)
     {
@@ -53,6 +58,30 @@ public class Bgm : MonoBehaviour
     {
         if (i == 1) airPlane.Play();
         else airPlane.Pause();
+    }
+    public void Factory()
+    {
+        factory.Play();
+    }
+    public void SteakSound()
+    {
+        steakSound.Play();
+    }
+    public void EatSound()
+    {
+        eatSound.Play();
+    }
+    public void ChildrenSound()
+    {
+        childrenSound.Play();
+    }
+    public void EngineSound()
+    {
+        engineSound.Play();
+    }
+    public void CrySound()
+    {
+        crySound.Play();
     }
 
 }

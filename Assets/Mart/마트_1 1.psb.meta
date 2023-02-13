@@ -298,8 +298,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1646
-      y: 9046
+      x: 1279
+      y: 10160
       width: 258
       height: 149
     spriteID: 251f1dd145d5d84448a2f58eefb85f27
@@ -1784,7 +1784,7 @@ ScriptedImporter:
     maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     forceMaximumCompressionQuality_BC6H_BC7: 0
     crunchedCompression: 0
@@ -1802,6 +1802,17 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
     overridden: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0

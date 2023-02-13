@@ -54,4 +54,19 @@ public class kitchen : MonoBehaviour
     {
         KitchenSound.isRainbow = true;
     }
+
+    void RefOpenSound()
+    {
+        KitchenSound.isRefopen = true;
+    }
+
+    void CloseSound()
+    {
+        KitchenSound.isClosed = true;
+    }
+
+    void MagicSound()
+    {
+        KitchenSound.isMagic = true;
+    }
 }

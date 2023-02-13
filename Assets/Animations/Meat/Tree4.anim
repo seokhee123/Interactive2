@@ -608,7 +608,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.25
+        time: 1.2833333
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -636,7 +636,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.8
+        time: 1.8333334
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -664,7 +664,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 2
+        time: 2.1666667
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -938,7 +938,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.25
+        time: 1.2833333
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -966,7 +966,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.8
+        time: 1.8333334
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -994,7 +994,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 2
+        time: 2.1666667
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -2060,7 +2060,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.25
+        time: 1.2833333
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -2088,7 +2088,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.8
+        time: 1.8333334
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -2116,7 +2116,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 2
+        time: 2.1666667
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -2390,7 +2390,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.25
+        time: 1.2833333
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -2418,7 +2418,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.8
+        time: 1.8333334
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -2446,7 +2446,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 2
+        time: 2.1666667
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -2493,6 +2493,62 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0.11666667
+    functionName: Appear
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.25
+    functionName: Appear
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.5
+    functionName: Appear
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1
+    functionName: Factory
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.2833333
+    functionName: Factory
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.55
+    functionName: FactoryOn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.8333334
+    functionName: FactoryOn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.1666667
+    functionName: Factory
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 2.5
     functionName: SteakToHam
     data: 

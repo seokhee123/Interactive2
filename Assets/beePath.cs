@@ -24,11 +24,11 @@ public class beePath : MonoBehaviour
     {
         if (isbee)
         {
-            transform.RotateAround(Target.position, Vector3.forward, 20 * Time.deltaTime);
+            transform.RotateAround(Target.position, Vector3.forward, 80 * Time.deltaTime);
         }
         else
         {
-            transform.RotateAround(Target.position, Vector3.back, 20 * Time.deltaTime);
+            transform.RotateAround(Target.position, Vector3.back, 80 * Time.deltaTime);
         }
     }
 }
