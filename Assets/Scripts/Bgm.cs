@@ -10,8 +10,10 @@ public class Bgm : MonoBehaviour
     public AudioSource cow;
     public AudioSource air1;
     public AudioSource bart;
+    public AudioSource bart2;
     public AudioSource truck;
     public AudioSource airPlane;
+    
 
     public void Truck(int i)
     {
@@ -21,6 +23,10 @@ public class Bgm : MonoBehaviour
     public void Bart()
     {
         bart.Play();
+    }
+    public void Bart2()
+    {
+        bart2.Play();
     }
     public void Select1()
     {

@@ -1860,7 +1860,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 1
     messageOptions: 0
-  - time: 4.5
+  - time: 7
     functionName: AirPlane
     data: 
     objectReferenceParameter: {fileID: 0}

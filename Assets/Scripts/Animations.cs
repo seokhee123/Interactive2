@@ -17,6 +17,10 @@ public class Animations : MonoBehaviour
     {
         bgm.Bart();
     }
+    public void bart2()
+    {
+        bgm.Bart2();
+    }
     public void Air1()
     {
         bgm.Air1();
