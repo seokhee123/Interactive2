@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class kitchen : MonoBehaviour
 {
-
     void Start()
     {
 
@@ -13,12 +12,10 @@ public class kitchen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log(HKY.URGSensorObjectDetector.OnNewObject);
     }
 
-    private void OnMouseDown()
-    {
 
-    }
 
     void TimeScale()
     {
