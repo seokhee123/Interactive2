@@ -1,9 +1,12 @@
+using HKY;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class kitchen : MonoBehaviour
 {
+    public ProcessedObject obj;
     void Start()
     {
 
@@ -12,7 +15,16 @@ public class kitchen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(HKY.URGSensorObjectDetector.OnNewObject);
+        if (HKY.ProcessedObject.Clone(obj).guid != System.Guid.Empty)
+        {
+            Debug.Log(HKY.ProcessedObject.Clone(obj).guid);
+        }
+       
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    { 
+        //SCIP_library.SCIP_Writer.MD
     }
 
 

@@ -47,3 +47,6 @@ TagManager:
   - name: Sea
     uniqueID: 723455449
     locked: 0
+  - name: Tree
+    uniqueID: 529288503
+    locked: 0
