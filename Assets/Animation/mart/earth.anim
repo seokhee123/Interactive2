@@ -2299,15 +2299,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 14.483334
+  - time: 17.066668
     functionName: PlaneSoundOff
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 15.983334
-    functionName: SeaSoundOn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -2315,6 +2308,13 @@ AnimationClip:
     messageOptions: 0
   - time: 18.833334
     functionName: OrangeBox
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 19.933332
+    functionName: SeaSoundOn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

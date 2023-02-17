@@ -69,6 +69,13 @@ public class Animations : MonoBehaviour
     {
         scenario.earth.SetBool("tree1", true);
     }
+    public void FellingOut()
+    {
+        scenario.felling.GetComponent<Animator>().SetBool("fellingOut", true);
+        scenario.cow.SetActive(true);
+        //gameObject.SetActive(false);
+        scenario.sceneNo++;
+    }
     public void SecondEarthTree()
     {
         scenario.earth.SetBool("tree2", true);
