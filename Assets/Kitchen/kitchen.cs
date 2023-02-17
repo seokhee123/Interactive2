@@ -15,10 +15,10 @@ public class kitchen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (HKY.ProcessedObject.Clone(obj).guid != System.Guid.Empty)
+        /*if (HKY.ProcessedObject.Clone(obj).guid != System.Guid.Empty)
         {
             Debug.Log(HKY.ProcessedObject.Clone(obj).guid);
-        }
+        }*/
        
     }
 
