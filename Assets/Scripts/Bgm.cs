@@ -19,6 +19,7 @@ public class Bgm : MonoBehaviour
     public AudioSource childrenSound;
     public AudioSource engineSound;
     public AudioSource crySound;
+    public AudioSource poop;
 
     public void Truck(int i)
     {
@@ -83,5 +84,8 @@ public class Bgm : MonoBehaviour
     {
         crySound.Play();
     }
-
+    public void Poop()
+    {
+        poop.Play();
+    }
 }
