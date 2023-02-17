@@ -9,6 +9,18 @@ public class Animations : MonoBehaviour
     public GameObject meat;
     int childCnt = 0;
 
+    public void Bird(int i)
+    {
+        bgm.Bird(i);
+    }
+    public void Magic1()
+    {
+        bgm.Magic1();
+    }
+    public void SeaDark()
+    {
+        bgm.SeaDark();
+    }
     public void Truck(int i)
     {
         bgm.Truck(i);

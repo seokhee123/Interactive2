@@ -20,7 +20,24 @@ public class Bgm : MonoBehaviour
     public AudioSource engineSound;
     public AudioSource crySound;
     public AudioSource poop;
+    public AudioSource seaDark;
+    public AudioSource magic1;
+    public AudioSource bird;
 
+
+    public void Bird(int i)
+    {
+        if (i==0) bird.Play();
+        else bird.Pause();
+    }
+    public void Magic1()
+    {
+        magic1.Play();
+    }
+    public void SeaDark()
+    {
+        seaDark.Play();
+    }
     public void Truck(int i)
     {
         if (i == 0) truck.Play();
