@@ -82,5 +82,9 @@ public class orangeFarm : MonoBehaviour
     {
         SoundManager.isSea = true;
     }
-    
+
+    void SeagulSound()
+    {
+        SoundManager.isSeagul = true;
+    }
 }
