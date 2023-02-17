@@ -6297,7 +6297,15 @@ MonoBehaviour:
   cow: {fileID: 370305211}
   air1: {fileID: 483244472}
   bart: {fileID: 1063438195}
+  bart2: {fileID: 0}
   truck: {fileID: 1202552527}
+  airPlane: {fileID: 0}
+  factory: {fileID: 0}
+  steakSound: {fileID: 0}
+  eatSound: {fileID: 0}
+  childrenSound: {fileID: 0}
+  engineSound: {fileID: 0}
+  crySound: {fileID: 0}
 --- !u!1 &784676152
 GameObject:
   m_ObjectHideFlags: 0

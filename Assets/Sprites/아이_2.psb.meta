@@ -114,7 +114,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1696, y: -758}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1700, y: 972}
   - name: "\uC120\uD0DD \uC601\uC5ED\uC5D0\uC11C"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -136,7 +136,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1486, y: -776}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1703, y: 1072}
   - name: "\uB808\uC774\uC5B4 24"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -158,7 +158,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1454, y: -728}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1874, y: 1024}
   - name: "\uB808\uC774\uC5B4 32"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -180,7 +180,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1358, y: -786}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1786, y: 1003}
   - name: "\uB808\uC774\uC5B4 33"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -202,7 +202,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1758, y: -59}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1762, y: 1048}
   - name: "\uB808\uC774\uC5B4 20"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -224,7 +224,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1736, y: -71}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1740, y: 1019}
   - name: "\uB808\uC774\uC5B4 16"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -246,7 +246,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1698, y: -572}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1702, y: 974}
   - name: "\uB808\uC774\uC5B4 19"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -268,7 +268,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1652, y: -45}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1772, y: 1034}
   - name: "\uB808\uC774\uC5B4 20"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -290,7 +290,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1523, y: -626}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1740, y: 1008}
   - name: "\uB808\uC774\uC5B4 28"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -312,7 +312,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1374, y: -647}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1794, y: 1002}
   - name: "\uB808\uC774\uC5B4 16"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -334,7 +334,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1485, y: -969}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1702, y: 973}
   - name: "\uB808\uC774\uC5B4 34"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -356,7 +356,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1452, y: -921}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1456, y: 925}
   - name: "\uC120\uD0DD \uC601\uC5ED\uC5D0\uC11C"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -378,7 +378,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1239, y: -838}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1456, y: 1024}
   - name: "\uB808\uC774\uC5B4 24"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -400,7 +400,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1006, y: -671}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1466, y: 967}
   - name: "\uB808\uC774\uC5B4 32"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -422,7 +422,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1113, y: -710}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1541, y: 956}
   - name: "\uB808\uC774\uC5B4 33"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -444,7 +444,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1300, y: -496}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1517, y: 1001}
   - name: "\uB808\uC774\uC5B4 20"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -466,7 +466,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1278, y: -549}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1495, y: 972}
   - name: "\uB808\uC774\uC5B4 16"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -488,7 +488,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1453, y: -343}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1457, y: 927}
   - name: "\uB808\uC774\uC5B4 19"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -510,7 +510,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1094, y: -811}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1522, y: 997}
   - name: "\uB808\uC774\uC5B4 20"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -532,7 +532,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1278, y: -508}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1495, y: 972}
   - name: "\uB808\uC774\uC5B4 21"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -554,7 +554,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1390, y: -20}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1532, y: 968}
   - name: "\uB808\uC774\uC5B4 16"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -576,7 +576,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1453, y: -161}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1457, y: 927}
   characterData:
     bones: []
     parts: []

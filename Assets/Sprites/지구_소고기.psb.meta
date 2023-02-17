@@ -158,7 +158,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 3537, y: 3174}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1584, y: 348}
   - name: "\uB808\uC774\uC5B4 149"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -180,7 +180,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2866, y: 7026}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 986, y: 930}
   - name: "\uB808\uC774\uC5B4 161"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -202,7 +202,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1873, y: 6286}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1419, y: 995}
   - name: "\uB808\uC774\uC5B4 160"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -224,7 +224,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4716, y: 1884}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1070, y: 999}
   - name: "\uB808\uC774\uC5B4 166"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -246,7 +246,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2193, y: 6027}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1099, y: 1002}
   - name: "\uB808\uC774\uC5B4 161"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -268,7 +268,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1982, y: 6292}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1310, y: 1196}
   - name: "\uB808\uC774\uC5B4 154"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -290,7 +290,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4379, y: 1609}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1414, y: 959}
   - name: "\uB808\uC774\uC5B4 152"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -312,7 +312,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2635, y: 6519}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1217, y: 722}
   - name: "\uB808\uC774\uC5B4 140"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -334,7 +334,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4290, y: 1059}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 831, y: 1509}
   - name: "\uB808\uC774\uC5B4 142"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -356,7 +356,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4284, y: 1375}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 837, y: 1508}
   - name: "\uB808\uC774\uC5B4 132"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -378,7 +378,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1970, y: 6485}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 387, y: 1464}
   - name: "\uB808\uC774\uC5B4 132"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -400,7 +400,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 5267, y: 1038}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 931, y: 1530}
   - name: "\uB808\uC774\uC5B4 132"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -422,7 +422,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 5146, y: 674}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 709, y: 1466}
   - name: "\uB808\uC774\uC5B4 132"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -444,7 +444,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2872, y: 4561}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 420, y: 1464}
   - name: "\uB808\uC774\uC5B4 132"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -466,7 +466,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 3283, y: 4442}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 294, y: 1583}
   - name: "\uB808\uC774\uC5B4 132"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -488,7 +488,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 5506, y: 1419}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 625, y: 1464}
   - name: "\uB808\uC774\uC5B4 132"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -510,7 +510,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2752, y: 5124}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 540, y: 1528}
   - name: "\uD2B8\uB7ED 2 \uC120"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -532,7 +532,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4184, y: 2983}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 937, y: 861}
   - name: "\uC55E\uBC14\uD0342 \uC120"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -554,7 +554,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1943, y: 4168}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1395, y: 826}
   - name: "\uB4B7\uBC14\uD034 2 \uC120"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -576,7 +576,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2286, y: 4290}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1052, y: 819}
   - name: co2 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -598,7 +598,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4120, y: 7030}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 753, y: 1009}
   - name: 'co2 '
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -620,7 +620,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2508, y: 3857}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 830, y: 888}
   - name: "\uD2B8\uB7ED2 \uC0C9 "
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -642,7 +642,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4184, y: 2371}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 937, y: 823}
   - name: "\uC55E\uBC14\uD0342 \uC0C9"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -664,7 +664,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1943, y: 4605}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1395, y: 829}
   - name: "\uB4B7\uBC14\uD0342 \uC0C9"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -686,7 +686,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2287, y: 4401}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1051, y: 823}
   - name: "\uACF5\uC7A5"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -708,7 +708,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2112, y: 5992}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1180, y: 385}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C91"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -730,7 +730,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 5145, y: 1733}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1043, y: 643}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C91 2"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -752,7 +752,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2123, y: 3894}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1215, y: 605}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C91 3"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -774,7 +774,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2040, y: 4265}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1298, y: 613}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C91 4"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -796,7 +796,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1956, y: 4016}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1382, y: 607}
   - name: "\uC0BD\uC785\uD55C \uC774\uBBF8\uC9C0"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -818,7 +818,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2886, y: 7321}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1578, y: 323}
   - name: "\uC0BD\uC785\uD55C \uC774\uBBF8\uC9C0"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -840,7 +840,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4119, y: 6886}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 345, y: 355}
   - name: "\uBE44\uD589\uAE30"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -862,7 +862,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1425, y: 6869}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3039, y: 1170}
   - name: "\uACF5\uC7A5"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -884,7 +884,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 457, y: 6395}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3106, y: 1277}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C91"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -906,7 +906,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1716, y: 6580}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3009, y: 1459}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C91 2"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -928,7 +928,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 618, y: 5704}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3130, y: 1433}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C91 3"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -950,7 +950,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 559, y: 5959}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3189, y: 1438}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C91 4"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -972,7 +972,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 500, y: 5875}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3248, y: 1434}
   - name: "\uACF5\uC7A5  2"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -994,7 +994,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 520, y: 5996}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3090, y: 1485}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C92  "
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1016,7 +1016,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 317, y: 3929}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3021, y: 1614}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C92  2"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1038,7 +1038,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 667, y: 5885}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3107, y: 1596}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C92 3 "
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1060,7 +1060,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 618, y: 5154}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3149, y: 1599}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C92 4 "
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1082,7 +1082,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 583, y: 5951}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3191, y: 1597}
   - name: "\uACF5\uC7A5 3"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1104,7 +1104,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2101, y: 6474}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2882, y: 1565}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C93 "
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1126,7 +1126,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 920, y: 5559}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2828, y: 1667}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C93 2"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1148,7 +1148,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 878, y: 5961}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2896, y: 1653}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C93 3"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1170,7 +1170,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 870, y: 4988}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2929, y: 1656}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C93 4"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1192,7 +1192,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 804, y: 5218}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2963, y: 1653}
   - name: "\uACF5\uC7A5 4"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1214,7 +1214,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 981, y: 2754}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2485, y: 1586}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C94"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1236,7 +1236,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1081, y: 5800}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2431, y: 1688}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C94 2"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1258,7 +1258,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1268, y: 5142}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2499, y: 1674}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C94 3"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1280,7 +1280,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1267, y: 5018}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2532, y: 1677}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C94 4"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1302,7 +1302,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1233, y: 4915}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2566, y: 1674}
   - name: "\uACF5\uC7A5 5"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1324,7 +1324,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1364, y: 5084}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2246, y: 1505}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C95"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1346,7 +1346,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1168, y: 3683}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2170, y: 1652}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C95 2"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1368,7 +1368,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1492, y: 5317}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2268, y: 1632}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C95 3"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1390,7 +1390,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1197, y: 5925}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2315, y: 1634}
   - name: "\uACF5\uC7A5\uC5F0\uAE30\uC0C95 4"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1412,7 +1412,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1397, y: 5392}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2363, y: 1632}
   - name: "\uB098\uBB34\uC0C9  1 (\uC218\uC815)"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1434,7 +1434,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4145, y: 843}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2043, y: 1297}
   - name: "\uB098\uBB34\uC0C9  2 (\uC218\uC815)"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1456,7 +1456,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 890, y: 6596}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2187, y: 1353}
   - name: "\uBC8C\uBAA9  3"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1478,7 +1478,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1527, y: 6093}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2299, y: 1521}
   - name: "\uB098\uBB34\uC0C9  3"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1500,7 +1500,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1389, y: 4857}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2221, y: 1520}
   - name: "\uB098\uBB34\uC0C9  4 (\uC218\uC815)"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1522,7 +1522,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1210, y: 5510}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2400, y: 1439}
   - name: "\uB098\uBB34\uC0C9  5 (\uC218\uC815)"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1544,7 +1544,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1970, y: 6366}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2295, y: 1590}
   - name: "\uBC8C\uBAA9 6"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1566,7 +1566,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 987, y: 6067}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2549, y: 1565}
   - name: "\uB098\uBB34\uC0C9  6"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1588,7 +1588,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1123, y: 5573}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2487, y: 1564}
   - name: "\uBC8C\uBAA9 7"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1610,7 +1610,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 669, y: 6110}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2890, y: 1522}
   - name: "\uB098\uBB34\uC0C9 7"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1632,7 +1632,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 782, y: 5788}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2828, y: 1521}
   - name: "\uBC8C\uBAA9  8"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1654,7 +1654,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 821, y: 5254}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2998, y: 1562}
   - name: "\uB098\uBB34\uC0C9  8 (\uC218\uC815)"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1676,7 +1676,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 353, y: 6387}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2912, y: 1562}
   - name: "\uBC8C\uBAA9 9"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1698,7 +1698,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 416, y: 6312}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3096, y: 1320}
   - name: "\uB098\uBB34\uC0C9  9"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1720,7 +1720,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 586, y: 5434}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3024, y: 1319}
   - name: "\uBC8C\uBAA9  10"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1742,7 +1742,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 725, y: 5283}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3105, y: 1470}
   - name: "\uB098\uBB34\uC0C9  10"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1764,7 +1764,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 291, y: 2871}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3047, y: 1469}
   - name: "\uBC8C\uBAA9  12"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1786,7 +1786,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 586, y: 5688}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3232, y: 1183}
   - name: "\uB098\uBB34\uC0C9 12 (\uC218\uC815)"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1808,7 +1808,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 306, y: 6766}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3146, y: 1183}
   - name: "\uBC8C\uBAA9 13 "
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1830,7 +1830,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 546, y: 5611}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3272, y: 1297}
   - name: "\uB098\uBB34\uC0C9 13 (\uC218\uC815)"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1852,7 +1852,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 453, y: 6652}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 3186, y: 1297}
   - name: "\uC120\uD0DD \uC601\uC5ED\uC5D0\uC11C \uBCF5\uC0AC"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1874,7 +1874,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 2769, y: 1402}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2352, y: 738}
   - name: "\uC120\uD0DD \uC601\uC5ED\uC5D0\uC11C \uBCF5\uC0AC 2"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1896,7 +1896,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -2284, y: 7035}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2288, y: 643}
   - name: "\uC9C0\uAD6C\uC120"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1918,7 +1918,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1757, y: -620}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2095, y: 624}
   - name: "\uB808\uC774\uC5B4 157"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1940,7 +1940,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 3010, y: 256}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2111, y: 810}
   - name: "\uC9C0\uAD6C"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1962,7 +1962,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1753, y: 5453}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2099, y: 746}
   - name: "\uBC14\uB2E4"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1984,7 +1984,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1758, y: 663}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2094, y: 621}
   - name: "\uBC14\uB2E42"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2006,7 +2006,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1758, y: 1952}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2094, y: 619}
   - name: "\uBC14\uB2E43"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2028,7 +2028,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1755, y: 3241}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2097, y: 624}
   - name: "\uD3EC\uC778\uD2B8\uB545"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2050,7 +2050,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 207, y: 6600}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2150, y: 1072}
   - name: "\uB545"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2072,7 +2072,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 3035, y: -740}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2086, y: 744}
   - name: "\uB5452"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2094,7 +2094,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1757, y: 4401}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 2095, y: 744}
   - name: "\uACF5\uAE30 \uC120(\uC218\uC815) \uBCF5\uC0AC"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2116,7 +2116,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1880, y: 3918}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1884, y: 422}
   - name: "\uACF5\uAE30 (\uC218\uC815)"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2138,7 +2138,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -249, y: 5584}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1898, y: 441}
   - name: "\uACF5\uAE302 (\uC218\uC815)"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2160,7 +2160,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -204, y: 3902}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1897, y: 438}
   - name: "\uACF5\uAE303 (\uC218\uC8151)"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2182,7 +2182,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1893, y: 5587}
-    spritePosition: {x: 0, y: 0}
+    spritePosition: {x: 1897, y: 438}
   - name: "\uB9C8\uD2B8\uBE14\uB7EC"
     originalName: 
     pivot: {x: 0.5, y: 0.5}

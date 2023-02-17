@@ -101,7 +101,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 6557
+      y: 6546
       width: 532
       height: 1582
     spriteID: 80c1f2afbf55eed48a42c8c06749e45c
@@ -113,7 +113,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 6557}
+    uvTransform: {x: 4, y: 6546}
     spritePosition: {x: 2695, y: 41}
   - name: "\uBB38 \uCD94\uAC002"
     originalName: 
@@ -136,7 +136,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4938}
-    spritePosition: {x: 2647, y: -11}
+    spritePosition: {x: 2647, y: 0}
   - name: "\uBB382"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -549,7 +549,7 @@ ScriptedImporter:
     parentIndex: 6
     spriteID: 80c1f2afbf55eed48a42c8c06749e45c
     layerID: -768997566
-    mosaicPosition: {x: 4, y: 6557}
+    mosaicPosition: {x: 4, y: 6546}
     flatten: 0
     isImported: 1
     isVisible: 1
