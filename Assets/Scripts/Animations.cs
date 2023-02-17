@@ -6,7 +6,7 @@ public class Animations : MonoBehaviour
 {
     public Scenario scenario;
     public Bgm bgm;
-
+    public GameObject meat;
     int childCnt = 0;
 
     public void Truck(int i)
@@ -32,6 +32,11 @@ public class Animations : MonoBehaviour
     public void Cow()
     {
         bgm.Cow();
+        meat.SetActive(false);
+    }
+    public void Poop()
+    {
+        bgm.Poop();
     }
     public void Appear()
     {
