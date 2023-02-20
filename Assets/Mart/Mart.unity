@@ -9369,7 +9369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 734899100256518522, guid: 84e6dfbf6cdff17429cc1233b2ecea3d, type: 3}
       propertyPath: m_SortingOrder
-      value: 37
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 1181521694667910400, guid: 84e6dfbf6cdff17429cc1233b2ecea3d, type: 3}
       propertyPath: m_Color.a
