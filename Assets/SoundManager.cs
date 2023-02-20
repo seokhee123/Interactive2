@@ -13,6 +13,8 @@ public class SoundManager : MonoBehaviour
     public static bool isTruck;
     public static bool isTruckStop;
     public static bool isSea;
+    public static bool isSeagul;
+    public static bool isSeagulStop;
     public GameObject isOrange;
     public AudioSource orange;
     public AudioSource plane;
@@ -21,6 +23,8 @@ public class SoundManager : MonoBehaviour
     public AudioSource box;
     public AudioSource truck;
     public AudioSource sea;
+    public GameObject seagul;
+
 
     void Start()
     {
@@ -81,6 +85,15 @@ public class SoundManager : MonoBehaviour
         {
             isSea = false;
             sea.Play();
+        }
+        if (isSeagul)
+        {
+            isSeagul = false;
+            seagul.GetComponent<AudioSource>().Play();
+        }
+        if (isSeagulStop)
+        {
+            seagul.GetComponent<AudioSource>().enabled = false;
         }
     }
 }

@@ -35,4 +35,6 @@ public class BoxSound : MonoBehaviour
     {
         SoundManager.isSea = true;
     }
+
+
 }
